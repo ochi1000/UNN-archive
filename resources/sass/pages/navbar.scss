@@ -1,0 +1,94 @@
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.navbar-light .navbar-brand {
+    color: black;
+    font-size: 2rem;
+}
+button .navbar-toggler:focus{
+    outline: none;
+}
+.navbar {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0.2rem !important; 
+    // box-shadow: 0 2px 2px -.08px rgba(255, 255, 255, 0.514);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.15);
+    line-height: 1;
+    position: fixed;
+}
+.bg-light{
+    background-color: white !important;
+}
+
+.navbar-toggler{
+    padding: 0rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: none; 
+}
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-primary.search-button{
+        color: rgb(24, 101, 202);
+        background-color: none;
+        border-color: #ced4da;
+}
+.btn.search-button{
+        background-color: white;
+        border: 1px solid #ced4da;
+        border-radius: 1rem;
+        border-left: none;    
+}
+
+.form-control.search-buttons{
+        border-radius: 1rem;
+        border-right: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .navbar{
+        padding-right: 0.1rem;
+    }
+    .nav-item{
+    padding-right: 7px;
+    }
+    .navbar-light .navbar-brand {
+        font-size: .9rem;
+    }
+    .show-for-small .navbar-nav{
+        flex-direction: row;
+    }
+    .show-for-small .nav-link{
+        font-size: 0.8rem;
+    }
+    .show-for-small .nav-item{
+        border-bottom: none;
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        
+    }
+    .dropdown-menu{
+        min-width: 0rem;
+        padding: 0.3rem 0;
+    }
+    .dropdown-item {
+        padding: 0rem .25rem;
+    }
+}

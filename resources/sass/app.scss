@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'pages/home.scss';
+@import 'pages/search.scss';
+@import 'pages/details.scss';
+@import 'pages/auth.scss';
+@import 'pages/navbar.scss';
+@import 'pages/footer.scss';

@@ -1,0 +1,21 @@
+// Authentication styles
+
+.auth{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.auth-login{
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .auth{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .auth-login{
+        margin-top: 10rem;
+        margin-bottom: 12rem;
+    }
+}

@@ -1,0 +1,153 @@
+html,
+body,
+.cover{
+    height: 100% !important; 
+}
+body{
+    background-color: white;
+}
+.preloader {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 9999999;
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+
+    .unn-image{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+
+        img{
+            height: 140px;
+            width: 100px;
+        }
+    }
+
+ }
+
+.cover{
+    background: url(/images/design/scinapse.webp) top center no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cover-text{
+    text-align: center;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+.cover-head{
+    padding-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: gray;
+}
+
+.small-text{
+    display: none;
+}
+.show-for-small{
+ display: none;
+}
+.cover-text h1 {
+    margin: 0;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.search-tab{
+    .input-group{
+        width: 35rem;
+
+        .form-control{
+            height: 1.9rem;
+        }
+    }
+}
+
+.search-tab{
+    .input-group-append{
+        height: 1.9rem;
+
+        .btn{
+            padding: 0.1rem 0.75rem;
+        }
+    }
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.typeahead{
+    width:25rem;
+    overflow: hidden;
+}
+
+ @media (min-width: 320px) and (max-width: 425px) {
+    .small-text{
+    text-align: left;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 50px;
+    font-size: 10px;
+    }
+    .cover-text{
+        display: block;
+    }
+    .home-section{
+        font-size: 1.2rem;
+        line-height: 1.8rem
+    }
+   .hide-for-small{
+       display: none;
+   }
+   .show-for-small{
+    display: block;
+   }
+   .search-tab{
+        .input-group{
+            width: 18rem;
+
+            .form-control{
+                height: 1.7rem;
+            }
+        }
+    }
+
+    .search-tab{
+        .input-group-append{
+            height: 1.7rem;
+    
+            .btn{
+                padding: 0.1rem 0.75rem;
+            }
+        }
+    }
+
+    .preloader{
+        .unn-image{
+            img{
+                height: 84px;
+                width: 60px;    
+            }
+        }
+    }
+
+    .typeahead{
+        width:18rem;
+        overflow: hidden;
+    }
+  }
