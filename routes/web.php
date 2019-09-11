@@ -44,7 +44,6 @@ Route::get('/admin/files', 'Admin\FileController@show');
 Auth::routes();
 Route::get('/logout', 'Auth\LoginController@logout');
 
-
 /**Authentication For Admin Before getting access to admin Routes */
 Route::group(['middleware'=>'auth'], function(){
     // if(Auth::user()->role == 'user'){
