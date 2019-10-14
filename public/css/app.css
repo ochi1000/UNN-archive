@@ -11134,7 +11134,7 @@ body {
 }
 
 .cover {
-  background: url(/images/design/scinapse.webp) top center no-repeat;
+  background: url(/images/design/department.jpg) top center no-repeat rgba(0, 0, 0, 0.5);
   background-size: cover;
   display: table;
   width: 100%;
