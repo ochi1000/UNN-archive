@@ -11134,7 +11134,7 @@ body {
 }
 
 .cover {
-  background: url(/images/design/deparment.jpg) top center no-repeat rgba(0, 0, 0, 0.5);
+  background: url(/images/design/department.jpg) top center no-repeat;
   background-size: cover;
   display: table;
   width: 100%;
