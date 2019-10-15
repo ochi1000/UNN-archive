@@ -29,6 +29,7 @@ class FileController extends BaseController{
             $request->validate([
                 'name' =>'required|min:4|max:40',
                 'author' =>'required',
+                'category' =>'required',
                 'description' =>'required|min:2|max:2000',
                 'fileProduct' =>'required|file',
             ]);
