@@ -11355,6 +11355,10 @@ hr {
   height: 100%;
 }
 
+.abstract {
+  line-height: 2rem;
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
   .small-screen .details {
     margin-top: 3rem;
