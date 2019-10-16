@@ -18,7 +18,7 @@
                         <p>{{ \Illuminate\Support\Str::words($search_result->description, 50, '... more')}}</p>
                         <div class="d-block author-date">
                             <div class="d-inline-block">
-                                Authors: {{ \Illuminate\Support\Str::words($search_result->author, 4, '...')}}
+                                Authors: {{ \Illuminate\Support\Str::words($search_result->author, 8, '...')}}
                             </div>
                             <div class="d-inline-block float-right">
                                 {{$search_result->created_at->toFormattedDateString()}}

@@ -27,7 +27,7 @@ class FileController extends BaseController{
 
             /**Validate Posted data */
             $request->validate([
-                'name' =>'required|min:4|max:40',
+                'name' =>'required',
                 'author' =>'required',
                 'category' =>'required',
                 'description' =>'required|min:2|max:2000',
