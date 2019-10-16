@@ -5,7 +5,7 @@
 
 {{-- Larger Screen View --}}
 @if(count($search_results))
-<section class="hide-for-small" style="margin-top:2rem; padding-top:2.5rem; padding-left:5rem; height:100%; ">
+<section class="hide-for-small" style="margin-top:2rem; padding-top:2.5rem; padding-left:5rem; min-height:100%; ">
     <div class="row">
         <div class="col-md-7">
             @if($numOfResults = $search_results->total())
