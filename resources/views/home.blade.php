@@ -9,21 +9,21 @@
     </div>
      <section class="cover">
         <div class='cover-text'>
-            <h3 class="cover-head">Academic<br>Search Engine</h3>    
+            <h3 class="cover-head">Academic<br>Search Engine</h3>
             <div class="d-flex justify-content-center">
                 <form action="/search" method="GET" class="search-tab" enctype="multipart/form-data">
                     @csrf
                     <div class="input-group">
-                        <input type="text" name="search" id="search" class="form-control search-buttons" placeholder="Search for projects, research papers, thesis ..." aria-label="Search for...">
+                        <input type="text" name="search" id="search" class="form-control search-buttons" placeholder="Search 'Automation' projects" aria-label="Search for...">
                         <div class="input-group-append">
                           <button class="btn btn-primary search-button" type="submit"><i class="fa fa-search "></i></button>
                         </div>
-                    </div>                 
+                    </div>
                 </form>
-            </div>           
+            </div>
         </div>
-    </section>     
-    
+    </section>
+
     <script type="text/javascript">
         // Autocomplete Search Tab
         var route = "{{ url('autocomplete') }}";
