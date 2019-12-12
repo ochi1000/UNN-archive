@@ -10,16 +10,16 @@
                 <form action="/search" method="GET" class="search-tab" enctype="multipart/form-data">
                     @csrf
                     <div class="input-group">
-                        <input type="text" value="" name="search" id="search" class="form-control search-buttons" placeholder="Search for projects, research papers, thesis ..." aria-label="Search for...">
+                        <input type="text" value="" name="search" id="search" class="form-control search-buttons" placeholder='Search "Automation"' aria-label="Search for...">
                         <div class="input-group-append">
                           <button class="btn btn-primary search-button" type="submit"><i class="fa fa-search "></i></button>
                         </div>
-                    </div>                 
+                    </div>
                 </form>
             </div>
-           
+
             <ul class="navbar-nav ml-auto">
-                
+
                 @auth
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -28,7 +28,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/logout">logout</a>
                     </div>
-                </li>           
+                </li>
                 {{-- <li class="nav-item">
                     <a class="nav-link" href="/login">{{Auth::user()->name}}</a>
                 </li> --}}
@@ -39,11 +39,11 @@
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="/login">Log in</a>
-                </li> 
+                </li>
                 @endguest
-        
+
             </ul>
-        
+
         </div>
 
         {{-- Mobile navbar --}}
@@ -60,9 +60,9 @@
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="/login">Log in</a>
-                </li> 
+                </li>
                 @endguest
-        
+
             </ul>
         </div>
     </div>

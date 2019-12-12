@@ -14,7 +14,7 @@
                 <form action="/search" method="GET" class="search-tab" enctype="multipart/form-data">
                     @csrf
                     <div class="input-group">
-                        <input type="text" name="search" id="search" class="form-control search-buttons" placeholder='Search "Automation" projects' aria-label="Search for...">
+                        <input type="text" name="search" id="search" class="form-control search-buttons" placeholder='Search "Automation"' aria-label="Search for...">
                         <div class="input-group-append">
                           <button class="btn btn-primary search-button" type="submit"><i class="fa fa-search "></i></button>
                         </div>
